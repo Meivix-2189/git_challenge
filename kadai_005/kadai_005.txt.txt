@@ -1,0 +1,17 @@
+PS C:\Users\81809\OneDrive\デスクトップ\lesson> cd D:\課題用\git_challenge
+PS D:\課題用\git_challenge> git add "D:\課題用\git_challenge\hello_world.txt.txt"
+PS D:\課題用\git_challenge> git commit -m "追記；Hello_World!"
+[main (root-commit) e0ccf48] 霑ｽ險假ｼ姨ello_World!
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt.txt
+PS D:\課題用\git_challenge> git add "D:\課題用\git_challenge\hello_world.txt.txt"
+PS D:\課題用\git_challenge> git commit -m "課題用"
+[main aaf3285] 隱ｲ鬘檎畑
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS D:\課題用\git_challenge> git status
+On branch main
+nothing to commit, working tree clean
+PS D:\課題用\git_challenge> git log --oneline
+aaf3285 (HEAD -> main) 課題用
+e0ccf48 追記；Hello_World!
+PS D:\課題用\git_challenge> 
